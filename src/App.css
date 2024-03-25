@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif; 
+  padding: 20px;
+  background-color: #fafafa;
+}
+.App{
+  margin: 0 auto;
+  padding-bottom: 30px;
+  max-width: 550px;
+  border: 14px solid #e4e4e2;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px, inset rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, inset rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+.nav-logo{
+  max-width: 100px;
+  height: auto;
+}
+section{
+  padding: 20px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.hero-img{
+  max-width: 400px;
+  width: 100%;
+  align-self: center;
+  margin: 24px 0 32px 0;
+}
+.hero-header{
+  margin-bottom: 16px;
+  font-weight: 36px;
+  font-weight: 600;
+}
+.hero-text{
+  font-weight: 300;
+  color: #222222;
+}
+.cards-list{
+  padding: 0 0 8px 0;
+  margin: 30px 20px 0 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap:20px;
+  overflow-x: auto;
+}
+.cards-list::-webkit-scrollbar {
+  height: 6px;
+  border: 1px solid #d2d2d7;
+  border-radius: 6px;
+}
+.cards-list::-webkit-scrollbar-thumb {
+  height: 6px;
+  background-color: #d2d2d7;
+  border-radius: 6px;
+}
+
+.cards-list::-webkit-scrollbar-thumb:hover {
+  background-color: #b6b6b6;
+}
+
+.cards-list::-webkit-scrollbar:vertical {
+  display: none;
+}
+.card{
+  position: relative;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  color: #222222;
+  font-size: 12px;
+  font-weight: 300;
+}
+.card-badge{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.card-img{
+  min-width: 176;
+  border-radius: 10px;
+}
+.card-stats{
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.card-rating-icon{
+  width: 14px;
+  margin-right: 4px;
+}
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: 600;
+}
+.card p{
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
