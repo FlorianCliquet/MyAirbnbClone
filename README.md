@@ -4,7 +4,7 @@
 This project is a React web page created as part of a web development course on Scrimba. It serves as a learning exercise for React beginners, covering fundamental concepts such as components, state management, and routing. The webpage itself is a low version Airbnb clone
 
 **Picture**
-[MyAirbnbClone](assets/MyAirbnbClone.png)
+![MyAirbnbClone](assets/MyAirbnbClone.png)
 
 **Installation:**
 1. Clone the repository to your local machine:
